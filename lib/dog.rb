@@ -20,4 +20,8 @@ class Dog
     @breed
   end
   
+  if breed=nil 
+    @breed="Mutt"
+  end
+  
 end
